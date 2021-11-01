@@ -1,0 +1,26 @@
+/*************************** Theme Colours****************************/
+// Define theme colour scheme
+$theme-color-primary: #FFA62B;
+$theme-color-secondary: #00A0C1;
+$theme-text-muted: #BDBDBD;
+
+$theme-color-success: #2DC071;
+$theme-color-danger: #E74040;
+
+/*************************** Variables Section. *****************************/
+// Create variables to override the default value for variables used in the Bootstrap SCSS files.
+
+/* Override BS5 SASS color */
+$primary: $theme-color-primary;
+$secondary: $theme-color-secondary;
+
+$success: $theme-color-success;
+$danger: $theme-color-danger;
+
+$text-muted: $theme-text-muted;
+
+/*************************** Import Bootstrap  *****************************/
+@import "bootstrap/bootstrap.scss";
+
+/*************************** Theme Styles Section ****************************/
+@import "theme/styles.scss"

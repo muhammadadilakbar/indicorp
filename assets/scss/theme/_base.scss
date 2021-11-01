@@ -1,0 +1,104 @@
+/* ============= Base ============= */
+
+/*********** Theme Generic **********/
+
+:root {
+  --theme-color-primary: #FFA62B;
+  --theme-color-secondary: #00A0C1;
+
+  --theme-text-color-headings: #252B42;
+  --theme-text-color-body: #737373;
+
+  --theme-bg-dark: var(--theme-text-color-headings);
+  --theme-bg-light: #FFFFFF;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--theme-text-color-body);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, {
+	font-family: 'Montserrat', sans-serif;
+	color: var(--theme-text-color-headings);
+}
+
+h1, .h1 {
+  font-size: 3.625rem; //58px
+  font-weight: 800;
+  line-height: 1.379; //80px
+  letter-spacing: 0.2px;
+}
+
+h2, .h2 {
+  font-size: 2.5rem; //40px
+  font-weight: 700;
+  line-height: 1.425; //57px
+  letter-spacing: 0.2px;
+}
+
+h3, .h3 {
+  font-size: 1.5rem; //24px
+  font-weight: 700;
+  line-height: 1.33; //32px
+  letter-spacing: 0.1px;
+}
+
+h4, .h4 {
+  font-size: 1.25rem; //20px
+  font-weight: 500;
+  line-height: 1.5; //30px
+  letter-spacing: 0.2px;
+}
+
+h5, .h5 {
+  font-size: 1rem; //16px
+  font-weight: 700;
+  line-height: 1.5; //24px
+  letter-spacing: 0.1px;
+}
+
+h6, .h6 {
+  font-size: 0.875rem; //14px
+  font-weight: 600;
+  line-height: 1.7143; //24px
+  letter-spacing: 0.2px;
+}
+
+a:hover {
+  color: var(--theme-color-secondary);
+}
+
+a.text-link {
+  text-decoration: none;
+}
+
+a.text-link:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.875rem; //14px
+  font-weight: 500;
+  line-height: 1.4286; //20px
+  letter-spacing: 0.2px;
+  color: var(--theme-text-color-body);
+}
+
+.btn-primary {
+  color: #FFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #FFF;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active {
+  color: #FFF;
+}
