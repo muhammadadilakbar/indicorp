@@ -3,7 +3,7 @@ HTML/CSS implementation of a free Figma design.
 
 See the Figma design here: https://figmaland.com/templates/indicorp-figma-corporate-web-page-template
 
-See the webpage developed from this design here: https://muhammadadilakbar.github.io/indicorp/
+See it live at: https://muhammadadilakbar.github.io/indicorp/
 
 I used the Bootstrap 5 framework.
 
