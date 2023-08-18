@@ -1,7 +1,7 @@
 # indicorp
 HTML/CSS implementation of a free Figma design.
 
-See the Figma design here: https://figmaland.com/templates/indicorp-figma-corporate-web-page-template
+See the Figma design here: ~https://figmaland.com/templates/indicorp-figma-corporate-web-page-template~ https://www.figma.com/file/HmyQ1pJ5UWPgqU65AZQS64/Indicorp---Figma-Corporate-Web-Page-Template-(Community)?type=design&node-id=964-5456&mode=design
 
 See it live at: https://muhammadadilakbar.github.io/indicorp/
 
